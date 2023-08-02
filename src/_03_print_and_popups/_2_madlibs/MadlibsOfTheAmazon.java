@@ -8,8 +8,24 @@ public class MadlibsOfTheAmazon {
 		// Put this sentence in a pop up:
 		String prompt =  "If you find yourself having to cross a piranha-infested river, here's how to do it...";
 		
+		
+		
 		// Get the player to enter an adjective
+ 
+ String input = JOptionPane.showInputDialog("Give me an adjective"); 
+   
+ 
+ String inputt = JOptionPane.showInputDialog("Give me a type of liquid");
+ 
 
+ String inputtt = JOptionPane.showInputDialog("Give me a body part");  
+	  
+    
+ String inputttt = JOptionPane.showInputDialog("Give me a verb"); 
+ 
+
+ String inputtttt = JOptionPane.showInputDialog("Give me a place");  
+ 
 		// Get the player to enter a type of liquid
 
 		// Get the player to enter a body part
@@ -23,12 +39,12 @@ public class MadlibsOfTheAmazon {
 		// the values entered by the player.
 		// Hint:  You will need to add more + signs to join the variables to the other parts of the story.
 		
-		String story = 
-		"Piranhas are more [**adjective**] during the day, so cross the river at\n"  +
-		"night. Piranhas are attracted to fresh [**type of liquid**] and will most\n"  +
-		"likely take a bite out of your [**body part**] if you [**verb**]. Whatever\n"  +
+		JOptionPane.showMessageDialog(null, 
+		"Piranhas are more " + input + " during the day, so cross the river at\n"  +
+		"night. Piranhas are attracted to fresh " + inputt + " and will most\n"  +
+		"likely take a bite out of your " + inputtt + " if you " + inputttt + " . Whatever\n"  +
 		"you do, if you have an open wound, try to find another way to get\n"  +
-		"back to the [**place**]. Good luck!";
+		"back to the " + inputtttt  + " . Good luck!");
 		
 		// Make a pop-up that contains the final story. The \n escape characters add line breaks to the story. 
 		// If you need to, move them around to make your story look better in the pop-up

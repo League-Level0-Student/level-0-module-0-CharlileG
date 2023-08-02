@@ -18,6 +18,20 @@ public class RobotSquare {
         // PEN.  Put the robot's pen down so it can draw, Use this command:
 		 /**     rob.penDown();    **/
 
+    	rob.penDown();
+    	
+    	rob.setSpeed(5);
+    	
+    	int count = 0;
+    	
+    	for (int i = 0; i < 4; i++) {
+    		rob.move(100);
+        	
+        	rob.turn(90);
+        	
+        	count += 1;
+    	}
+
         // SPEED. Make the robot move quickly. Use this command:
 		  /**     rob.setSpeed(<speed>);    **/
  
@@ -35,7 +49,7 @@ public class RobotSquare {
 
     	
     	// INCREASE COUNT. Add one to the number of sides that have now been drawn like this:
-    		  /**     count += 1;    **/
+    		  /**     cc    **/
 
     	
     	// Run the program. Did the Robot draw a line and turn?

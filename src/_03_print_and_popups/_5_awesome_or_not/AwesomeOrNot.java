@@ -2,12 +2,41 @@ package _03_print_and_popups._5_awesome_or_not;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class AwesomeOrNot {
 
 	// 1. Make a main method that includes everything below
 
 	
 		Random ran = new Random();    //This will be used below to make a random number. 
+		
+		int number = ran.nextInt(2);
+		
+		System.out.println(number);
+		
+		String input = JOptionPane.showInputDialog("Tell me something that you think is awsome"); 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		// 2. Make a variable that will hold a random whole number
 	
